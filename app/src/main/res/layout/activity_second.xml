@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/secondact"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="background Red"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/redbutton"
+        android:layout_marginTop="86dp"
+        android:layout_alignParentTop="true"
+        android:onClick="backred"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="background Green"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/greenbutton"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="139dp"
+        android:layout_below="@+id/redbutton"
+        android:onClick="backgreen"
+        android:layout_alignRight="@+id/redbutton"
+        android:layout_alignEnd="@+id/redbutton" />
+</RelativeLayout>
